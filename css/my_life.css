@@ -1,0 +1,122 @@
+body
+{
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#main_div
+{
+
+    text-align: center;
+    margin-top: 50px;
+}
+
+.h2_for_gallery
+{
+    padding-top: 25px;
+    padding-bottom: 15px;
+    font-family: "sans-serif";
+    font-size: 25px;
+    color: lightgoldenrodyellow;
+    text-shadow:
+            -1px -1px 0 #000,
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000;
+
+}
+#main_h1
+{
+
+    font-family: "sans-serif";
+    font-size: 60px;
+    margin-left: 1%;
+    color: lightgoldenrodyellow;
+    text-shadow:
+            -1px -1px 0 #000,
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000;
+}
+
+#main_p
+{
+
+    font-family: "sans-serif";
+    font-size: 28px;
+    margin-left: 1%;
+    color: lightgoldenrodyellow;
+    text-shadow: -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.me_little
+{
+    width:490px;
+    height: auto;
+    border-color: black;
+    border-style: outset;
+    border-width: 5px;
+}
+.me_now
+{
+    width: 250px;
+    height: auto;
+    border-color: black;
+    border-style: outset;
+    border-width: 5px;
+}
+
+
+#go_back {
+    margin-left: 45%;
+    margin-top: 50px;
+    font-family: "sans-serif";
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    height: 75px;
+    width: 225px;
+    font-size: 28px;
+
+    color: white;
+    text-shadow: -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+button:focus { outline: none; }
+
+.button_opt
+{
+    margin-top: 75px;
+    font-family:"sans-serif";
+    background-color: transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    height: 125px;
+    width: 300px;
+    font-size: 48px;
+
+    color: white;
+    text-shadow:
+            -1px -1px 0 #000,
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000;
+
+}
+
+
+button:hover {
+    color: lightgray;
+    opacity: 0.8;
+}

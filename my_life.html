@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="css/my_life.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="jss/gallery_script_1.js"></script>
+    <link rel="stylesheet" href="css/fancy_box.css" />
+    <script src="jss/fancy_box.js"></script>
+</head>
+<body>
+<div id="main_div">
+    <h1 id="main_h1">Aboute Me</h1>
+    <p id="main_p">My name is Daniil or you can just call me Dan, it's shorter and easier that way.<br>
+    I live in Latvia, Jelgava, but i am thinking about moving out somewhere else, right now don't know where. <br>
+    I am 18 years old, soon going to be 19. I want to live an easy life without any stress and major problems.<br>
+    But at the same time i want to achieve that life on my own. I don't want to recieve it on silver spoon.<br>
+    That's why now i started studying more than previosly. The younger me never thought about <br>
+    the future and what i am going to do in my life.
+    </p>
+
+
+
+    <h2 class="h2_for_gallery">Little Me VS Current Me</h2>
+    <a  data-fancybox="gallery" href="images/me_little.png"><img class="me_little" src="images/me_little.png"></a>
+
+    <a  data-fancybox="gallery" href="images/me_now.jpg"><img class="me_now" src="images/me_now.jpg"></a>
+
+
+</div>
+<button id="go_back" onclick="goBack()">Go Back</button>
+<script>
+    function goBack() {
+        window.history.back();
+    }
+</script>
+</body>
+</html>

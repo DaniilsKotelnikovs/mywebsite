@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <title>About Me</title>
+    <link rel="stylesheet" type="text/css" href="css/about_me.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/clock.css">
+</head>
+<body>
+    <div id="MyClockDisplay" class="clock" onload="showTime()"><script src="jss/main.js"></script></div>
+    <div class="button_options">
+    <button class="button_opt" onclick="window.location.href='hobby.html'" class="button_hobbies">My Hobbies</button>
+        <button class="button_opt" onclick="window.location.href='strive.html'" class="button_strive">What I Strive For</button>
+        <button class="button_opt" onclick="window.location.href='my_life.html'" class="button_strive">About My Life</button>
+        <button id="go_back" onclick="goBack()">Go Back</button>
+        <script>
+            function goBack() {
+                window.history.back();
+            }
+        </script>
+    </div>
+
+</body>
+</html>
