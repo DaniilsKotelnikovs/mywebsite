@@ -19,6 +19,14 @@ body
             1px 1px 0 #000;
 }
 
+#MyClockDisplay
+{
+	z-index:-10;
+	padding-bottom:80%;
+	width:800px;
+	
+}
+
 button:focus { outline: none; }
 
 .button
