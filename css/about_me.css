@@ -5,6 +5,14 @@ body
     background-repeat: no-repeat;
 }
 
+#MyClockDisplay
+{
+	z-index:-10;
+	padding-bottom:15%;
+	width:800px;
+	
+}
+
 #go_back
 {
     margin-top: 100px;
